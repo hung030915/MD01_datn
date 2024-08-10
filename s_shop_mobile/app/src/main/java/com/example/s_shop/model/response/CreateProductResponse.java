@@ -1,8 +1,6 @@
-package com.example.hn_2025_online_shop.model.response;
+package com.example.s_shop.model.response;
 
-import com.example.hn_2025_online_shop.model.Product;
-
-import java.util.List;
+import com.example.s_shop.model.Product;
 
 public class CreateProductResponse {
     String message;

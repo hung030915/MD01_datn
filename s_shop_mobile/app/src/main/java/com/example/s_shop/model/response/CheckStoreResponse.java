@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.model.response;
+package com.example.s_shop.model.response;
 
 public class CheckStoreResponse {
     private int code;

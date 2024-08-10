@@ -1,7 +1,7 @@
-package com.example.hn_2025_online_shop.model.response;
+package com.example.s_shop.model.response;
 
-import com.example.hn_2025_online_shop.adapter.OrderAdapter;
-import com.example.hn_2025_online_shop.model.Order;
+import com.example.s_shop.adapter.OrderAdapter;
+import com.example.s_shop.model.Order;
 
 import java.util.List;
 

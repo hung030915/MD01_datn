@@ -1,6 +1,6 @@
-package com.example.hn_2025_online_shop.model.response.statistical;
+package com.example.s_shop.model.response.statistical;
 
-import com.example.hn_2025_online_shop.model.ProductWithSoldQuantity;
+import com.example.s_shop.model.ProductWithSoldQuantity;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.example.hn_2025_online_shop.model.response;
+package com.example.s_shop.model.response;
 
-import com.example.hn_2025_online_shop.model.Comment;
+import com.example.s_shop.model.Comment;
 
 import java.util.List;
 

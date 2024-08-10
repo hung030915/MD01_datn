@@ -1,6 +1,5 @@
-package com.example.hn_2025_online_shop.model.response.store;
+package com.example.s_shop.model.response.store;
 
-import com.example.hn_2025_online_shop.model.Product;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;

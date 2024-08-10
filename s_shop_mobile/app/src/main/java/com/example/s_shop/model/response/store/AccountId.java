@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.model.response.store;
+package com.example.s_shop.model.response.store;
 
 public class AccountId {
     private  String _id;

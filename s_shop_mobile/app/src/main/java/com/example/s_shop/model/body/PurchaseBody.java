@@ -1,6 +1,6 @@
-package com.example.hn_2025_online_shop.model.body;
+package com.example.s_shop.model.body;
 
-import com.example.hn_2025_online_shop.model.OptionAndQuantity;
+import com.example.s_shop.model.OptionAndQuantity;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;

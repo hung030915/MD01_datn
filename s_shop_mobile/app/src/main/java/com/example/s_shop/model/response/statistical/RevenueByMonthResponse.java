@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.model.response.statistical;
+package com.example.s_shop.model.response.statistical;
 
 import java.math.BigInteger;
 

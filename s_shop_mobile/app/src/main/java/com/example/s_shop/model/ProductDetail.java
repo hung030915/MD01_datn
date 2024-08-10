@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.model;
+package com.example.s_shop.model;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -8,7 +8,6 @@ import java.util.List;
 public class ProductDetail implements Serializable {
     @SerializedName("_id")
     private String id;
-    private Store store_id;
     private ProductType category_id;
     private String name;
     private List<String> image;
@@ -36,9 +35,8 @@ public class ProductDetail implements Serializable {
     public ProductDetail() {
     }
 
-    public ProductDetail(String id, Store store_id, ProductType category_id, String name, List<String> image, String description, String status, boolean discounted, boolean is_active, String screen, String camera, String chipset, String cpu, String gpu, int ram, int rom, String operatingSystem, String battery, int weight, String connection, String specialFeature, String manufacturer, String other, List<OptionProduct> option, List<ProductRate> product_review) {
+    public ProductDetail(String id, ProductType category_id, String name, List<String> image, String description, String status, boolean discounted, boolean is_active, String screen, String camera, String chipset, String cpu, String gpu, int ram, int rom, String operatingSystem, String battery, int weight, String connection, String specialFeature, String manufacturer, String other, List<OptionProduct> option, List<ProductRate> product_review) {
         this.id = id;
-        this.store_id = store_id;
         this.category_id = category_id;
         this.name = name;
         this.image = image;
@@ -68,7 +66,6 @@ public class ProductDetail implements Serializable {
     public String toString() {
         return "ProductDetail{" +
                 "id='" + id + '\'' +
-                ", store_id=" + store_id +
                 ", category_id=" + category_id +
                 ", name='" + name + '\'' +
                 ", image=" + image +
@@ -103,13 +100,6 @@ public class ProductDetail implements Serializable {
         this.id = id;
     }
 
-    public Store getStore_id() {
-        return store_id;
-    }
-
-    public void setStore_id(Store store_id) {
-        this.store_id = store_id;
-    }
 
     public ProductType getCategory_id() {
         return category_id;

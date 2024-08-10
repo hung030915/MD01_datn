@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.model;
+package com.example.s_shop.model;
 
 public class PeopleMsg {
     private Store store;
