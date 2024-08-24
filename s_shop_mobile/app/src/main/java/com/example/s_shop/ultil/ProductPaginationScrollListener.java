@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.ultil;
+package com.example.s_shop.ultil;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
