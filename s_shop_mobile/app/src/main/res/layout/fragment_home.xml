@@ -25,7 +25,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_weight="1"
-                android:text="FMarket"
+                android:text="E-Shop"
                 android:textSize="30dp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
