@@ -1,7 +1,6 @@
-package com.example.hn_2025_online_shop.ultil;
+package com.example.s_shop.ultil;
 
-import com.example.hn_2025_online_shop.model.Store;
-import com.example.hn_2025_online_shop.model.User;
+import com.example.s_shop.model.Store;
 
 public class StoreUltil {
     public static String TOKEN = "";

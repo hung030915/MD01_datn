@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.ultil;
+package com.example.s_shop.ultil;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.example.hn_2025_online_shop.databinding.LayoutLoadingBinding;
+import com.example.s_shop.databinding.LayoutLoadingBinding;
 
 public class ProgressLoadingDialog extends Dialog {
     private LayoutLoadingBinding binding;
