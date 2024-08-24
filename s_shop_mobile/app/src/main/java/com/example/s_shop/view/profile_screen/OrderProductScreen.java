@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.view.profile_screen;
+package com.example.s_shop.view.profile_screen;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.hn_2025_online_shop.R;
-import com.example.hn_2025_online_shop.adapter.page_view.ViewPageOrderAdapter;
-import com.example.hn_2025_online_shop.databinding.OrderProductScreenBinding;
+import com.example.s_shop.R;
+import com.example.s_shop.adapter.page_view.ViewPageOrderAdapter;
+import com.example.s_shop.databinding.OrderProductScreenBinding;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 

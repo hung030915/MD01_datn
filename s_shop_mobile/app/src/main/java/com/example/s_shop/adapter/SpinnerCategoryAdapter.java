@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.adapter;
+package com.example.s_shop.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,15 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.hn_2025_online_shop.R;
-import com.example.hn_2025_online_shop.model.ProductType;
-import com.example.hn_2025_online_shop.ultil.ObjectUtil;
+import com.example.s_shop.R;
+import com.example.s_shop.model.ProductType;
 
 import java.util.List;
 

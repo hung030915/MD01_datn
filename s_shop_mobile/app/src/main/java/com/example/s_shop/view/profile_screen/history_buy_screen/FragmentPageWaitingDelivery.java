@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.view.profile_screen.history_buy_screen;
+package com.example.s_shop.view.profile_screen.history_buy_screen;
 
 import android.os.Bundle;
 
@@ -13,15 +13,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.hn_2025_online_shop.adapter.OrderAdapter;
-import com.example.hn_2025_online_shop.api.BaseApi;
-import com.example.hn_2025_online_shop.databinding.FragmentPageWaitingDeliveryBinding;
-import com.example.hn_2025_online_shop.model.Order;
-import com.example.hn_2025_online_shop.model.response.OrderResponse;
-import com.example.hn_2025_online_shop.ultil.AccountUltil;
-import com.example.hn_2025_online_shop.ultil.ObjectUtil;
-import com.example.hn_2025_online_shop.ultil.ProgressLoadingDialog;
-import com.example.hn_2025_online_shop.ultil.TAG;
+import com.example.s_shop.adapter.OrderAdapter;
+import com.example.s_shop.api.BaseApi;
+import com.example.s_shop.databinding.FragmentPageWaitingDeliveryBinding;
+import com.example.s_shop.model.Order;
+import com.example.s_shop.model.response.OrderResponse;
+import com.example.s_shop.ultil.AccountUltil;
+import com.example.s_shop.ultil.ObjectUtil;
+import com.example.s_shop.ultil.TAG;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,13 +1,13 @@
-package com.example.hn_2025_online_shop.view.voucher;
+package com.example.s_shop.view.voucher;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.hn_2025_online_shop.adapter.VoucherSCAdapter;
-import com.example.hn_2025_online_shop.databinding.LayoutVoucherBinding;
-import com.example.hn_2025_online_shop.model.Voucher;
+import com.example.s_shop.adapter.VoucherSCAdapter;
+import com.example.s_shop.databinding.LayoutVoucherBinding;
+import com.example.s_shop.model.Voucher;
 
 import java.util.ArrayList;
 import java.util.List;

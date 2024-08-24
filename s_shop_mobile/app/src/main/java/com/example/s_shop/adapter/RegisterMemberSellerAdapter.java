@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.adapter;
+package com.example.s_shop.adapter;
 
 public class RegisterMemberSellerAdapter {
 

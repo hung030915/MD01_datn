@@ -1,28 +1,25 @@
-package com.example.hn_2025_online_shop.view.product_screen;
+package com.example.s_shop.view.product_screen;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.hn_2025_online_shop.R;
-import com.example.hn_2025_online_shop.adapter.CommentAdapter;
-import com.example.hn_2025_online_shop.api.BaseApi;
-import com.example.hn_2025_online_shop.databinding.ActivityCommentBinding;
-import com.example.hn_2025_online_shop.model.Comment;
-import com.example.hn_2025_online_shop.model.ProductDetail;
-import com.example.hn_2025_online_shop.model.Store;
-import com.example.hn_2025_online_shop.model.User;
-import com.example.hn_2025_online_shop.model.response.ListCommentResponse;
-import com.example.hn_2025_online_shop.model.response.ServerResponse;
-import com.example.hn_2025_online_shop.ultil.AccountUltil;
-import com.example.hn_2025_online_shop.ultil.TAG;
+import com.example.s_shop.R;
+import com.example.s_shop.adapter.CommentAdapter;
+import com.example.s_shop.api.BaseApi;
+import com.example.s_shop.databinding.ActivityCommentBinding;
+import com.example.s_shop.model.Comment;
+import com.example.s_shop.model.ProductDetail;
+import com.example.s_shop.model.User;
+import com.example.s_shop.model.response.ListCommentResponse;
+import com.example.s_shop.model.response.ServerResponse;
+import com.example.s_shop.ultil.AccountUltil;
+import com.example.s_shop.ultil.TAG;
 
 import org.json.JSONException;
 import org.json.JSONObject;

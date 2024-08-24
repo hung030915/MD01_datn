@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.adapter;
+package com.example.s_shop.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,9 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.hn_2025_online_shop.R;
-import com.example.hn_2025_online_shop.model.City;
-import com.example.hn_2025_online_shop.model.Ward;
+import com.example.s_shop.R;
+import com.example.s_shop.model.Ward;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.hn_2025_online_shop.adapter;
+package com.example.s_shop.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.hn_2025_online_shop.databinding.LayoutIteamUpdateOptionBinding;
-import com.example.hn_2025_online_shop.model.OptionProduct;
-import com.example.hn_2025_online_shop.ultil.ObjectUtil;
+import com.example.s_shop.databinding.LayoutIteamUpdateOptionBinding;
+import com.example.s_shop.model.OptionProduct;
+import com.example.s_shop.ultil.ObjectUtil;
 
 import java.util.List;
 

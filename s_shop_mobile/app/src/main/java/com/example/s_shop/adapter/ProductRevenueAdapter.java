@@ -1,23 +1,18 @@
-package com.example.hn_2025_online_shop.adapter;
+package com.example.s_shop.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.hn_2025_online_shop.R;
-import com.example.hn_2025_online_shop.databinding.LayoutIteamThongkeBinding;
-import com.example.hn_2025_online_shop.databinding.LayoutItemProductSaleBinding;
-import com.example.hn_2025_online_shop.model.Product;
-import com.example.hn_2025_online_shop.model.ProductDetailsSoldQuantity;
-import com.example.hn_2025_online_shop.model.ProductRevenue;
-import com.example.hn_2025_online_shop.model.ProductWithSoldQuantity;
+import com.example.s_shop.R;
+import com.example.s_shop.databinding.LayoutIteamThongkeBinding;
+import com.example.s_shop.databinding.LayoutItemProductSaleBinding;
+import com.example.s_shop.model.ProductWithSoldQuantity;
 
-import java.text.DecimalFormat;
 import java.util.List;
 
 public class ProductRevenueAdapter extends RecyclerView.Adapter<ProductRevenueAdapter.ProductRevenueViewHolder> {

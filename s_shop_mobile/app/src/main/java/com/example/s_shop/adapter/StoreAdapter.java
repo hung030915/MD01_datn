@@ -1,16 +1,15 @@
-package com.example.hn_2025_online_shop.adapter;
+package com.example.s_shop.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hn_2025_online_shop.databinding.IteamVoucherBinding;
-import com.example.hn_2025_online_shop.databinding.LayoutIteamOptionProductBinding;
-import com.example.hn_2025_online_shop.model.Voucher;
+import com.example.s_shop.databinding.IteamVoucherBinding;
+import com.example.s_shop.databinding.LayoutIteamOptionProductBinding;
+import com.example.s_shop.model.Voucher;
 
 import java.util.List;
 
@@ -35,7 +34,7 @@ public class StoreAdapter extends RecyclerView.Adapter<StoreAdapter.VoucherViewH
     }
 
     @Override
-    public void onBindViewHolder(@NonNull StoreAdapter.VoucherViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull VoucherViewHolder holder, int position) {
         Voucher voucher = list.get(position);
         holder.binding.sale.setText(voucher.getSale());
         holder.binding.name.setText(voucher.getNameVoucher());
